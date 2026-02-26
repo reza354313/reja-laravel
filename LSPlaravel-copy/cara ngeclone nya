@@ -1,0 +1,116 @@
+🔥 Jawabannya: **BISA BANGET.**
+
+Karena project lu udah ada di GitHub, temen lu tinggal clone aja.
+
+Repo lu:
+👉 [https://github.com/alvaryy/LSPlaravel-copy](https://github.com/alvaryy/LSPlaravel-copy)
+
+---
+
+# 🚀 Cara Temen Lu Pakai Project Laravel Lu
+
+## 1️⃣ Clone project
+
+Di CMD:
+
+```bash
+git clone https://github.com/alvaryy/LSPlaravel-copy.git
+```
+
+Masuk foldernya:
+
+```bash
+cd LSPlaravel-copy
+```
+
+---
+
+## 2️⃣ Install dependency Laravel
+
+```bash
+composer install
+```
+
+Kalau ada frontend:
+
+```bash
+npm install
+```
+
+---
+
+## 3️⃣ Copy file .env
+
+Karena `.env` nggak ikut ke-push (memang nggak boleh), jadi harus buat sendiri:
+
+```bash
+cp .env.example .env
+```
+
+Kalau di Windows:
+
+```bash
+copy .env.example .env
+```
+
+---
+
+## 4️⃣ Generate APP KEY
+
+```bash
+php artisan key:generate
+```
+
+---
+
+## 5️⃣ Setting Database
+
+Buka file `.env`, edit bagian:
+
+```
+DB_DATABASE=nama_db
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+---
+
+## 6️⃣ Jalankan Migration
+
+```bash
+php artisan migrate
+```
+
+---
+
+## 7️⃣ Jalanin Server
+
+```bash
+php artisan serve
+```
+
+Akses di:
+
+```
+http://127.0.0.1:8000
+```
+
+---
+
+# 🎯 Jadi Intinya
+
+Selama:
+
+* Repo lu public ✅
+* Atau lu tambahin dia sebagai collaborator kalau private ✅
+
+Dia pasti bisa pakai.
+
+---
+
+Kalau mau project lu bisa langsung jalan tanpa ribet setting, bisa juga dibikin:
+
+* README step-by-step
+* Atau deploy ke hosting
+
+Lu mau sekalian gue ajarin biar bisa diakses online? 😎
